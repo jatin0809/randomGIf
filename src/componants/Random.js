@@ -11,7 +11,7 @@ const Random = ()=>{
             <h1 className="text-2xl uppercase underline font-bold mt-[15px]">A RANDOM GIF</h1>
 
             {
-                loading ? (<Spinner/>) : (<img src={gif} width="450px"/>)
+                loading ? (<Spinner/>) : (<img src={gif} width="450px" alt="loading...."/>)
             }
 
             

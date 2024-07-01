@@ -16,7 +16,7 @@ const Tag = ()=>{
             <h1 className="text-2xl uppercase underline font-bold mt-[15px]">RANDOM {tag} GIF</h1>
 
             {
-                loading ? (<Spinner/>) : (<img src={gif} width="450px"/>)
+                loading ? (<Spinner/>) : (<img src={gif} width="450px" alt="loading...."/>)
             }
 
             <input className="w-10/12 bg-white text-lg py-2 rounded-lg mb-[3px] text-center"
